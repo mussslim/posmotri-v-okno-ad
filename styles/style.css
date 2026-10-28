@@ -1,1 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+html {
+  block-size: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  min-inline-size: 1200px;
+  min-block-size: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  background-color: #1b1919;
+}
+
+.content {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  inline-size: 1140px;
+}
+
+.result {
+  inline-size: 711px;
+}
